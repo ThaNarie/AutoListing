@@ -126,7 +126,7 @@
                         <p>Filters down the list while you type, sorting it in relevance, can be useful for searching within folder names instead of from the start.</p>
 
                         <p class="title-01">Feature requests or bugs?</p>
-                        <p>Visit <a href="https://github.com/ThaNarie">github.com/ThaNarie</a> to suggest new features or to report bugs!</p>
+                        <p>Visit <a href="https://github.com/ThaNarie/AutoListing/issues">github.com/ThaNarie</a> to suggest new features or to report bugs!</p>
                     </div>
                 </div>
             </div>
