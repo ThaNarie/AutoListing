@@ -4,10 +4,11 @@ AutoListing
 Better looking and more productive Apache directory listing.
 
 
-## Installation
+Installation
+------------
 
-# Copy the contents 'build' folder to the 'autolisting' folder in your webroot.
-# Add the following rules to the .htaccess in your webroot.
+1. Copy the contents 'build' folder to the 'autolisting' folder in your webroot.
+2. Add the following rules to the .htaccess in your webroot.
 
 ```
 #enable directory listing
