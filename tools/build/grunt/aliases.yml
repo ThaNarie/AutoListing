@@ -1,0 +1,34 @@
+default:
+  - 'release'
+
+release:
+  - 'clean:default'
+  - 'ts:default'
+  - 'requirejs:release'
+  - 'imagemin:default'
+  - 'pngmin:default'
+  - 'clean-build:default'
+  - 'notify:build'
+
+debug:
+  - 'clean:default'
+  - 'ts:default'
+  - 'requirejs:debug'
+  - 'imagemin:default'
+  - 'pngmin:default'
+  - 'notify:build'
+
+test:
+  - 'release'
+
+scaffold:
+  - 'scaffold-pages'
+  - 'ts'
+
+createjs-toolkit-animation-converter:
+  - 'createjs-toolkit-animation-converter'
+
+component:
+  - 'create-component'
+  - 'ts'
+  - 'sass'

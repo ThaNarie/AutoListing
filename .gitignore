@@ -1,0 +1,5 @@
+.idea
+.tscache
+vendor
+/www/build
+/tools/build/node_modules

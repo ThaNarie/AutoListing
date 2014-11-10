@@ -1,0 +1,33 @@
+{
+  "name": "skeleton-gaia",
+  "version": "2.0.0",
+  "scripts": {
+    "test": "npm run test-grunt && npm run test-karma-unit && npm run test-karma-coverage",
+    "test-grunt": "grunt test",
+    "test-karma-unit": "karma start ../../deploy/htdocs/karma.teamcity.conf.js --reporters teamcity --single-run",
+    "test-karma-coverage": "karma start ../../deploy/htdocs/karma.teamcity.conf.js --single-run"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-ts": "~1.12.1",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-imagemin": "~0.1.4",
+    "grunt-contrib-requirejs": "~0.4.0",
+    "adm-zip": "~0.4.2",
+    "request": "",
+    "line-reader": "~0.2.3",
+    "fs-extra": "~0.6.3",
+    "typescript": "1.1.0-1",
+    "walk": "~2.2.1",
+    "grunt-contrib-sass": "~0.7.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-pngmin": "",
+    "createjs-def": "",
+    "load-grunt-tasks": "~0.6.0",
+    "load-grunt-config": "~0.13.2",
+    "jit-grunt": "~0.8.0",
+    "grunt-notify": "~0.3.1",
+    "time-grunt": "~1.0.0",
+    "grunt-contrib-yuidoc": "*"
+  }
+}
